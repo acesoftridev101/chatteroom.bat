@@ -1,0 +1,2 @@
+# chatteroom.bat
+This is chatterroom.bat Download every single file. Edit the code so that in set "NetworkLogFolder=\\YOUR-SERVER-NAME\SharedChatFolder\"                     Make your-server-name the computer name. To find your computer name go into the start menu and type and enter cmd. Then type the command hostname and the input that comes from that command 
