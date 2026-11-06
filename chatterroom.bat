@@ -22,7 +22,7 @@ set /p name=Enter Your Name:
 if "%name%"=="" goto join
 set /p password=Enter Your Password: 
 
-echo %name% Joined command prompt services to go through hmm.bat simplicitating the services to hmm.bat then type in chat! >> "%ChatFile%"
+echo Hi %name% welcome to chatteroom!
 goto chatterroom
 
 :chatterroom
