@@ -4,7 +4,6 @@ title chatterroom
 set "NetworkLogFolder=\\YOUR-SERVER-NAME\SharedChatFolder\"
 set "ChatFile=%NetworkLogFolder%Chat.txt"
 
-:: Verify the network folder is accessible before starting
 if not exist "%NetworkLogFolder%" (
     color c
     echo ERROR: Cannot connect to the shared network folder!
