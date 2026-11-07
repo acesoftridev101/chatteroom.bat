@@ -22,7 +22,7 @@ set /p name=Enter Your Name:
 if "%name%"=="" goto join
 set /p password=Enter Your Password: 
 
-echo Hi %name% welcome to chatteroom!
+echo Hi %name% welcome to chatteroom! >> %ChatFile%
 goto chatterroom
 
 :chatterroom
